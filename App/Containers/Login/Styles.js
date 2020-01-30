@@ -1,0 +1,105 @@
+import { StyleSheet } from 'react-native'
+import { Helpers, Metrics, Fonts, Colors } from 'App/Theme'
+
+export default StyleSheet.create({
+    container:{
+        flex:1,
+        paddingLeft:15,
+        paddingRight:15
+    },
+    logo:{
+        flex:4,
+        alignItems:'center',
+        justifyContent:'center'
+    },
+    logoPic:{
+        height:150,
+        width:150
+    },
+    logoText:{
+        fontSize:30,
+        fontWeight:'bold'
+    },
+    credentials:{
+        flex:5,
+        justifyContent:'center',
+    },
+    inputContainer:{
+        height: 55, 
+        borderColor: 'blue',
+        borderWidth: 1,
+        borderRadius:25,
+        flexDirection:'row',
+        alignItems:'center',
+        marginBottom:20
+
+    },
+    inputLeftIcon:{
+        marginLeft:20,
+        marginRight:10
+    },
+    email:{
+    },
+    forgotPassword:{
+        marginBottom:20,
+        justifyContent:'flex-end',
+        flexDirection:'row'
+    },
+    login:{
+        backgroundColor:'blue',
+        justifyContent:'center',
+        alignItems:'center',
+        marginBottom:0
+    },
+    loginText:{
+        fontWeight:'bold',
+        color:'white',
+        fontSize:16
+    },
+    more:{
+        flex:2.5,
+    },
+    moreLabel:{
+        marginBottom:15,
+        color:'#9e9e9e',
+        fontSize:14
+    },
+    socialLogin:{
+        flexDirection:'row',
+        justifyContent:'space-around',
+        marginBottom:10,
+    },
+    socialLoginButton:{
+        flexDirection:'row',
+        alignItems:'center',
+        justifyContent:'center',
+        height:42,
+        width:138,
+        borderRadius:8
+    },
+    socialLoginIcon:{
+        marginRight:10
+    },
+    socialLoginText:{
+        fontWeight:'bold',
+        color:'white',
+        fontSize:16
+    },
+    facebook:{
+        backgroundColor:'#1565c0',
+    },
+    google:{
+        backgroundColor:'#d32f2f'
+    },
+    signUp:{
+        flexDirection:'row',
+        marginTop:10,
+        justifyContent:'center'
+    },
+    signUpText:{
+        color:'blue',
+        height:35,
+        width:60,
+        marginLeft:5
+    }
+})
